@@ -1,0 +1,68 @@
+{
+    "uric new": {
+        "name": "uric new",
+        "template": "uric 2.docx",
+        "fields": [
+            {
+                "id": 1,
+                "type": "input",
+                "name": "SERUM URIC ACID",
+                "code": "uric_acid",
+                "logic": null
+            }
+        ]
+    },
+    "Bili 2": {
+        "name": "Bili 2",
+        "template": "Bilirubin_Template.docx",
+        "fields": [
+            {
+                "id": 1,
+                "type": "input",
+                "name": "SERUM BILIRUBIN  (TOTAL)",
+                "code": "total",
+                "logic": null
+            },
+            {
+                "id": 2,
+                "type": "input",
+                "name": "SERUM BILIRUBIN  (DIRECT )",
+                "code": "direct",
+                "logic": null
+            },
+            {
+                "id": 3,
+                "type": "logic",
+                "name": "SERUM BILIRUBIN  (INDIRECT)",
+                "code": "indirect",
+                "logic": "1-2"
+            }
+        ]
+    },
+    "Haemoglobin": {
+        "name": "Haemoglobin",
+        "template": "ABO, HB,RBS.docx",
+        "fields": [
+            {
+                "type": "input",
+                "name": "Haemoglobin",
+                "code": "haemoglobin",
+                "logic": null,
+                "id": 1
+            }
+        ]
+    },
+    "Urine": {
+        "name": "Urine",
+        "template": "URINE RE.docx",
+        "fields": [
+            {
+                "type": "input",
+                "name": "Colour",
+                "code": "colour",
+                "logic": null,
+                "id": 1
+            }
+        ]
+    }
+}
