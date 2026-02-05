@@ -17,23 +17,38 @@ To run this project successfully, your folder structure should look like this. I
 
 
 green-path-billing/
+
 ├── main.py                     # The primary application script
+
 ├── logo.png                    # Your lab logo (used in sidebar and invoices)
+
 ├── settings_icon.png           # UI Icon for settings
+
 ├── moon_icon.png               # UI Icon for Dark Mode
+
 ├── sun_icon.png                # UI Icon for Light Mode
+
 │
 ├── ReportTemplates/            # [REQUIRED] Store your .docx report templates here
+
 │   └── CBC NEW 2025.docx       # Example template referenced in code
+
 │
 ├── GeneratedReports/           # Automated: Stores generated medical reports
+
 ├── bill/                       # Automated: Stores generated invoices (.docx & .pdf)
+
 │
 ├── test_amount.txt             # Data: Stores "Test Name - Price"
+
 ├── doctors.txt                 # Data: Stores list of referred doctors
+
 ├── agents.txt                  # Data: Stores list of agents
+
 ├── bill_counter.txt            # Data: Tracks the next Bill Number (e.g., GPDL0001)
+
 ├── bills.xlsx                  # Data: The main database for patient history
+
 └── custom_reports.json         # Data: Stores configurations for dynamic reports
 
 🛠️ Prerequisites & Installation
